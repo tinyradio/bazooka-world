@@ -271,15 +271,6 @@
   }
   .overlay button:hover::after { animation: btnShine .7s cubic-bezier(.4,0,.2,1) forwards; }
   @keyframes btnShine { to { transform: translateX(120%); } }
-  /* 데스크탑 전용 안내 — 버튼 바로 아래에서 시선을 끌도록 */
-  .overlay .device-note {
-    margin-top: 18px; display: inline-flex; align-items: center; gap: 8px;
-    font-size: 12px; line-height: 16px; font-weight: 700; letter-spacing: .1em;
-    color: #ffd27a; text-shadow: 0 1px 8px rgba(0,0,0,.8);
-    background: rgba(50,35,10,.5); border: 1px solid rgba(255,210,122,.45);
-    padding: 8px 16px; backdrop-filter: blur(4px);
-    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
-  }
   #death { display: none; background: radial-gradient(ellipse at 50% 40%, rgba(45,16,24,.93), rgba(8,12,18,.97)); }
   /* WDS Body 2 Reading (15px/24px) */
   #death .stats { margin-top: 16px; font-size: 15px; line-height: 24px; letter-spacing: .0096em; color: rgba(236,232,225,.85); }
@@ -318,7 +309,6 @@
   <img class="title-img" src="assets/ui/title.png?v=4" alt="BAZOOKA WORLD">
   <div class="sub">바주카포 하나로 모든 것을 폭파시키는 오픈월드 RPG</div>
   <button id="startBtn">전장에 입장</button>
-  <div class="device-note">🖥 데스크탑 전용 — 키보드 · 마우스가 필요합니다</div>
   <div class="keys">
     <span><b>W A S D</b>이동</span>
     <span><b>마우스</b>시점 회전</span>
