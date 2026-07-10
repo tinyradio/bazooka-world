@@ -14,6 +14,8 @@
   <a href="https://bazooka-world.vercel.app">
     <img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-bazooka--world.vercel.app-FF4655?style=for-the-badge" alt="지금 플레이하기">
   </a>
+  <br>
+  <b>🖥 데스크탑 전용</b> — 키보드와 마우스가 필요합니다. 모바일은 지원하지 않습니다.
 </p>
 
 ---
