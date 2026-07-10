@@ -11,7 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="https://bazooka-world.vercel.app"><b>▶ 지금 플레이하기</b></a>
+  <a href="https://bazooka-world.vercel.app">
+    <img src="https://img.shields.io/badge/%E2%96%B6%20PLAY%20NOW-bazooka--world.vercel.app-FF4655?style=for-the-badge" alt="지금 플레이하기">
+  </a>
 </p>
 
 ---
@@ -21,8 +23,6 @@
 <p align="center">
   <img src="docs/gameplay.gif" alt="게임플레이" width="820">
 </p>
-
-오로라가 뜬 하늘 아래, 크리스탈 트리가 자라는 개활지에서 시작합니다. 시간이 지날수록 늑대가 계속 늘어나는데 탄약은 유한해서, 로켓이 떨어지면 블레이드로 버티면서 보급 상자를 찾아다녀야 합니다.
 
 | 조작 | 동작 |
 |---|---|
@@ -50,11 +50,6 @@
 |---|---|
 | ![전투](docs/shot-combat.jpg) | ![폭발](docs/shot-explosion.jpg) |
 | 늑대 무리와의 교전 | 로켓 폭발 |
-
-<p align="center">
-  <img src="docs/shot-knife.jpg" alt="블레이드 근접전" width="820"><br>
-  <sub>블레이드 근접전 (1인칭 풀암 뷰모델)</sub>
-</p>
 
 ## 실행 방법
 
