@@ -10,6 +10,10 @@
   <sub>Three.js 단일 HTML 파일로 만든 브라우저 게임 · 설치 불필요</sub>
 </p>
 
+<p align="center">
+  <a href="https://bazooka-world.vercel.app"><b>▶ 지금 플레이하기</b></a>
+</p>
+
 ---
 
 ## 게임플레이
@@ -54,10 +58,13 @@
 
 ## 실행 방법
 
-**스탠드얼론 (권장)**
-[`bazooka-standalone.html`](bazooka-standalone.html) 파일을 브라우저로 열면 바로 실행됩니다. 모든 에셋이 한 파일에 들어 있습니다.
+**온라인 (권장)**
+브라우저에서 바로 플레이할 수 있습니다: **https://bazooka-world.vercel.app**
 
-**개발용**
+**스탠드얼론**
+[`bazooka-standalone.html`](bazooka-standalone.html) 파일을 내려받아 브라우저로 열어도 됩니다. 모든 에셋이 한 파일에 들어 있어 오프라인에서도 실행됩니다.
+
+**로컬 개발**
 ```bash
 python3 -m http.server 4859
 # http://localhost:4859/index.html
