@@ -12,14 +12,6 @@
 
 ---
 
-## 🎬 티저
-
-<p align="center">
-  <img src="docs/teaser.gif" alt="티저 영상" width="820">
-</p>
-
-> 고화질 영상: [docs/teaser.mp4](docs/teaser.mp4)
-
 ## 🎮 게임플레이
 
 <p align="center">
