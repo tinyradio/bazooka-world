@@ -1466,7 +1466,7 @@ const handsGrp = makeHands();
     const center = box.getCenter(new THREE.Vector3());
     obj.position.sub(center);
     const maxDim = Math.max(size.x, size.y, size.z);
-    obj.scale.setScalar(1.4 / maxDim);
+    obj.scale.setScalar(1.55 / maxDim);
     const holder = new THREE.Group();
     // 최장축을 전방(-Z)으로 정렬
     if (size.x >= size.y && size.x >= size.z) holder.rotation.y = -Math.PI / 2;
@@ -1540,10 +1540,10 @@ knifeGrp.rotation.set(knifeBase.rx, knifeBase.ry, knifeBase.rz);
     });
     const holder = new THREE.Group();
     // 프리뷰 실측 튜닝 포즈 — 왼손 주먹 위로 칼끝이 2시 방향을 향하는 발로란트식 그립
-    // 스케일 0.55: 바주카 대비 컴팩트한 전투 나이프 비율, 손잡이는 주먹 뒤(-z)로 넣어 손이 칼을 덮음
+    // 스케일 0.47: 바주카 대비 컴팩트한 전투 나이프 비율, 손잡이는 주먹 뒤(-z)로 넣어 손이 칼을 덮음
     holder.rotation.set(-1.079, -0.167, -2.224);
     holder.position.set(-0.01, 0.1, -0.04);
-    holder.scale.setScalar(0.55);
+    holder.scale.setScalar(0.47);
     holder.add(obj);
     const old = knifeGrp.getObjectByName('knifeHolder');
     if (old) knifeGrp.remove(old);
@@ -1563,7 +1563,7 @@ knifeGrp.rotation.set(knifeBase.rx, knifeBase.ry, knifeBase.rz);
     const box = new THREE.Box3().setFromObject(src);
     const size = box.getSize(new THREE.Vector3());
     src.position.sub(box.getCenter(new THREE.Vector3()));
-    src.scale.setScalar(0.72 / Math.max(size.x, size.y, size.z)); // 팔꿈치~주먹 ~72cm
+    src.scale.setScalar(0.62 / Math.max(size.x, size.y, size.z)); // 팔꿈치~주먹 ~62cm
     src.traverse((c) => {
       if (c.isMesh && c.material && c.material.map) {
         c.material.emissiveMap = c.material.map; // 네온 트림 자체발광
