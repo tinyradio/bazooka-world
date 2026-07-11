@@ -1469,7 +1469,7 @@ const handsGrp = makeHands();
     obj.scale.setScalar(1.4 / maxDim);
     const holder = new THREE.Group();
     // 최장축을 전방(-Z)으로 정렬
-    if (size.x >= size.y && size.x >= size.z) holder.rotation.y = Math.PI / 2;
+    if (size.x >= size.y && size.x >= size.z) holder.rotation.y = -Math.PI / 2;
     holder.add(obj);
     weapon.clear();
     weapon.add(holder);
